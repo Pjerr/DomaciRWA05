@@ -1,0 +1,36 @@
+.card{
+    width: 600px;
+    display: block;
+    border: 1px solid black;
+    box-shadow: 10px 5px 5px gray;
+    margin-top: 5px;
+}
+
+img{
+    width: 70%;
+}
+
+h2,h4{
+    text-align: center;
+}
+
+h3{
+    padding-left: 10px;
+}
+h3:hover{
+    cursor: pointer;
+}
+
+h2{
+    background-color: gray;
+    color: white;
+}
+
+a{
+    color: crimson;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #420703;
+}

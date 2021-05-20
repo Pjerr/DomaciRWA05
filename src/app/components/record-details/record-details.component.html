@@ -1,0 +1,6 @@
+<div class="card">
+    <h2>{{record.name}}</h2>
+    <h3>Band: <a routerLink="/band" (click)="showBand(record.band.id)">{{record.band.name}}</a></h3>
+    <img src={{record.cover}} class="img-thumbnail rounded mx-auto d-block" alt="slika">
+    <h4>{{record.yearOfRelease}}</h4>
+</div>
